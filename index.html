@@ -8,7 +8,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class=" bg-opacity-20 text-white text-center px-4 md:px-16 bg-[url('./images/image-567.png')] bg-cover bg-center  w-full">
+<body
+    class=" bg-opacity-20 text-white text-center px-4 md:px-16 bg-[url('./images/image-567.png')] bg-cover bg-center  w-full">
 
     <!-- Navbar -->
     <header class="flex justify-between items-center p-5 bg-opacity-10 ">
@@ -42,8 +43,7 @@
     </nav>
 
     <!-- Hero Section -->
-    <section
-        class="text-start px-4 md:px-16 w-full">
+    <section class="text-start px-4 md:px-16 w-full">
 
         <div class="bg-black bg-opacity-20 p-6 sm:p-8 md:p-10 rounded-lg w-full sm:w-3/4 lg:w-1/2 text-start">
             <span
@@ -70,14 +70,23 @@
                 </button>
             </div>
 
-            <div class="flex items-center  mt-6 sm:mt-10 text-start">
-                <img src="./images/Image Avatars (1).png" class="w-8 h-8 sm:w-10 sm:h-10 rounded-full" alt="user">
-                <img src="./images/Image Avatars (2).png" class="w-8 h-8 sm:w-10 sm:h-10 rounded-full" alt="user">
-                <img src="./images/Image Avatars.png" class="w-8 h-8 sm:w-10 sm:h-10 rounded-full" alt="user">
-                <img src="./images/image-567.png" class="w-8 h-8 sm:w-10 sm:h-10 rounded-full" alt="user">
-                <img src="./images/Letter Avatars.png" class="w-8 h-8 sm:w-10 sm:h-10 rounded-full" alt="user">
-                <span class="text-xs sm:text-sm text-gray-400 ml-2">+99 people have tried our service</span>
+    
+            <div class="flex items-center">
+                <!-- Avatar Group -->
+                <div class="flex items-center -space-x-3 sm:-space-x-4 md:-space-x-6 lg:-space-x-8 mt-6 sm:mt-10 text-start">
+                    <img src="./images/Image Avatars (1).png" class="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-14 lg:h-14 rounded-full" alt="user">
+                    <img src="./images/Image Avatars (2).png" class="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-14 lg:h-14 rounded-full" alt="user">
+                    <img src="./images/Image Avatars.png" class="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-14 lg:h-14 rounded-full" alt="user">
+                    <img src="./images/image-567.png" class="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-14 lg:h-14 rounded-full" alt="user">
+                    <img src="./images/Letter Avatars.png" class="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-14 lg:h-14 rounded-full" alt="user">
+                </div>
+                <!-- Text beside avatars -->
+                <div class="mt-6 sm:mt-10">
+                    <span class="text-xs sm:text-sm md:text-base lg:text-lg text-gray-200">+99 people have tried our service</span>
+                </div>
             </div>
+            
+
         </div>
 
     </section>
