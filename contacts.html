@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body
+    class="bg-gray-900 text-white text-center px-4 md:px-16 bg-[url('./images/image-567.png')] bg-cover bg-center bg-opacity-20 w-full">
+    <!-- Navbar -->
+    <header class="flex justify-between items-center p-5 bg-opacity-20">
+        <div class="text-2xl font-bold text-yellow-400"><a href="/">BI'TULUM</a></div>
+
+        <!-- Desktop Navbar -->
+        <nav class="hidden md:flex space-x-6">
+            <a href="/" class="hover:text-yellow-400">Home</a>
+            <a href="/service-overview.html" class="hover:text-yellow-400">Service Overview</a>
+            <a href="/sustainable-marketing.html" class="hover:text-yellow-400">Sustainable Marketing</a>
+            <a href="/our-story.html" class="hover:text-yellow-400">Our Story</a>
+            <a href="/contacts.html" class="hover:text-yellow-400">Contact Us</a>
+        </nav>
+
+        <!-- Desktop Buttons -->
+        <div class="hidden md:flex space-x-4">
+            <button class="px-4 py-2 border border-yellow-400 rounded hover:bg-yellow-400 hover:text-gray-900">
+                Log In
+            </button>
+            <button class="px-4 py-2 bg-yellow-400 text-gray-900 rounded hover:bg-yellow-500">
+                Register
+            </button>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <div class="md:hidden">
+            <button id="menu-btn" class="text-white focus:outline-none">☰</button>
+        </div>
+    </header>
+
+    <!-- Mobile Navbar -->
+    <nav id="mobile-menu" class="hidden p-5 space-y-4 bg-gray-800">
+        <a href="/" class="block hover:text-yellow-400">Home</a>
+        <a href="/service-overview.html" class="block hover:text-yellow-400">Service Overview</a>
+        <a href="/sustainable-marketing.html" class="block hover:text-yellow-400">Sustainable Marketing</a>
+        <a href="/our-story.html" class="block hover:text-yellow-400">Our Story</a>
+        <a href="/contacts.html" class="block hover:text-yellow-400">Contact Us</a>
+    </nav>
+
+    <!-- Contact Us Section -->
+    <section class="text-center px-4 md:px-16">
+        <h1 class="text-5xl font-semibold">Contact Us</h1>
+
+        <div class="mt-12 md:flex gap-12">
+            <!-- FAQ Section -->
+            <div class="md:w-1/2">
+                <h2 class="text-4xl font-bold text-yellow-400">FAQ</h2>
+                <p class="mt-2 text-gray-300 font-semibold text-justify">
+                    You can see the questions that are usually asked when you first see Gawee. They might represent what
+                    you have for us.
+                </p>
+                <button class="mt-6 px-6 py-3 text-black bg-yellow-400 rounded-md hover:bg-yellow-500">
+                    Contact Us
+                </button>
+            </div>
+
+            <!-- Accordion Section -->
+            <div class="mt-8 md:mt-0 md:w-1/2 space-y-4">
+                <!-- FAQ 1 -->
+                <details class="bg-yellow-400 p-4 rounded-md">
+                    <summary class="font-medium text-black cursor-pointer">What is Tulum?</summary>
+                    <p class="mt-2 text-white">
+                        Our modern co-working space is a curated environment to elevate productivity and foster
+                        meaningful connections.
+                    </p>
+                </details>
+
+                <!-- FAQ 2 -->
+                <details class="bg-yellow-400 p-4 rounded-md">
+                    <summary class="font-medium text-black cursor-pointer">How is a co-working space different from
+                        regular offices?</summary>
+                    <p class="mt-2 text-white">
+                        Co-working spaces offer more flexibility, networking opportunities, and a community environment
+                        compared to traditional offices.
+                    </p>
+                </details>
+
+                <!-- FAQ 3 -->
+                <details class="bg-yellow-400 p-4 rounded-md">
+                    <summary class="font-medium text-black cursor-pointer">How do I book a place at Gawee?
+                    </summary>
+                    <p class="mt-2 text-white">
+                        You can book a space easily through our website or by contacting us directly.
+                    </p>
+                </details>
+
+                <!-- FAQ 4 -->
+                <details class="bg-yellow-400 p-4 rounded-md">
+                    <summary class="font-medium text-black cursor-pointer">What are the benefits of being a Gawee
+                        member?</summary>
+                    <p class="mt-2 text-white">
+                        Members enjoy premium services, networking events, and exclusive offers.
+                    </p>
+                </details>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-gray-800 py-12 mt-12">
+        <div class="px-6 md:px-16 lg:px-24 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+            <div>
+                <h3 class="text-xl font-semibold text-white">BITULUM</h3>
+                <p class="mt-2 text-gray-400">
+                    Ready to take a new surge of creativity. We offer inspiring spaces with inviting design.
+                </p>
+            </div>
+            <div>
+                <h4 class="text-lg font-semibold mb-2 text-white">Company</h4>
+                <ul class="space-y-2 text-gray-400">
+                    <li><a href="#" class="hover:text-yellow-400">Our Team</a></li>
+                    <li><a href="#" class="hover:text-yellow-400">Jobs</a></li>
+                    <li><a href="#" class="hover:text-yellow-400">Blog</a></li>
+                    <li><a href="#" class="hover:text-yellow-400">Address</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-lg font-semibold mb-2 text-white">Facility</h4>
+                <ul class="space-y-2 text-gray-400">
+                    <li><a href="#" class="hover:text-yellow-400">Private Office</a></li>
+                    <li><a href="#" class="hover:text-yellow-400">Meeting Room</a></li>
+                    <li><a href="#" class="hover:text-yellow-400">Event Space</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-lg font-semibold mb-2 text-white">Social Media</h4>
+                <ul class="space-y-2 text-gray-400">
+                    <li><a href="#" class="hover:text-yellow-400">Instagram</a></li>
+                    <li><a href="#" class="hover:text-yellow-400">Facebook</a></li>
+                    <li><a href="#" class="hover:text-yellow-400">Discord</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="divider  "></div>
+        <p class="text-center text-gray-500 mt-8">&copy; 2024 Tulum. All rights reserved.</p>
+    </footer>
+
+
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
